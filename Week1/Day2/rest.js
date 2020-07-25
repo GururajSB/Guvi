@@ -6,7 +6,7 @@ for(let ind=0;ind<aaa.length;ind++){
 	console.log("Flag: "+aaa[ind]["flag"]);
 	console.log("Languages: ")
 	console.log(aaa[ind]["languages"][0]);
-	console.log("----------------------------")
+	console.log("----------------------------");
 	console.log();
 }
 
