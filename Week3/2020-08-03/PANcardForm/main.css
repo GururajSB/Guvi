@@ -1,0 +1,10 @@
+body{
+    background-color: lightyellow;
+}
+tr{
+    font-weight: 800;
+}
+th{
+    color: white;
+    background-color: brown;
+}
