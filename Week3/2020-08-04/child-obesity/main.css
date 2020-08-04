@@ -1,0 +1,133 @@
+html{
+    display: flex;
+    background-color:black;
+    justify-content: center;
+
+}
+
+body{
+    width: 50%;
+    max-width: 50%;
+    display: flexbox;
+    flex-flow: column wrap;
+    justify-content: stretch;
+    background-color: #303e47; 
+    font-family: sans-serif;
+}
+
+header{
+    margin: 30px;
+    padding: 30px;
+    background-color: #303e47;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.header-div{
+    width: 150px;
+    height: 150px;
+    background-image: url(img/header.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div{
+    width: fit-content;
+}
+
+.header-h1{
+    font-size: 80px;
+    padding: 0;
+    margin: 0;
+    color: tomato;
+
+}
+
+.header-h2{
+    padding: 0;
+    margin: 0;
+    font-size: x-large;
+    color: whitesmoke;
+}
+
+section{
+    margin: 30px;
+    padding: 30px;
+    background-color: salmon;
+}
+
+.section1, .section-2, .section3, .section4, .section5,.section6 ,.section7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00b2e1;
+    padding: 0%;
+}
+
+.section1-div1, .section1-div2, .section3-div1, .section4-div1, .section4-div2, .section5,.section6, .section7-div1, .section7-div2 {
+    width: 50%;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 18px;
+    padding: 2.5%;
+}
+
+.section1-div1{
+    background-color: coral;
+}
+
+.s1-d1-span{
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.section-2 {
+    padding: 3%;
+    color: white;
+    background-color:  #ff5959;
+}
+
+.s2-img{
+    float: right;
+    width: 300px;
+}
+
+.section3-div1, .section3-div2, .section1-div2 {
+    background-color: #00b2e1;
+}
+
+.section4{
+    background-color: tomato
+}
+
+.section4-div2{
+    background-color: orange;
+}
+
+.section5{
+    width: initial;
+    background-color: #00b2e1;
+}
+.s5-img{
+    float: right;
+    width: 100px;
+}
+
+.section6{
+    width: initial;
+}
+
+.s7-d1-span{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.section7-div2{
+    font-size: 17px;
+}
+
+.section7-div2{
+    background-color: tomato;
+}
+
