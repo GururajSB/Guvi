@@ -11,7 +11,6 @@ main{
     border: 2px dotted white;
     border-bottom: none;
     border-radius: 50px;
-    /* height: 100vh; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,7 +23,6 @@ main{
     justify-content: space-evenly;
     align-items: center;
     height: 80vh;
-    /* background-color: lime; */
     font-family: serif;
     font-size: 40px;
     font-weight: 400;
