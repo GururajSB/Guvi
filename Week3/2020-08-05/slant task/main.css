@@ -1,0 +1,258 @@
+body{
+    background-color: #1f1527;
+    margin: 20px;
+    border: 50px solid #1f1527;
+    border-radius: 50px;
+    height: 100vh;
+}
+
+main{
+    /* width: 50%; */
+    background-color: #1f1527;
+    /* margin: 20px; */
+    border: 2px dotted white;
+    border-bottom: none;
+    border-radius: 50px;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-1, .section-2, .section-3, .section-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80vh;
+    /* background-color: lime; */
+    font-family: serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #dfd5cf;
+}
+
+.s1-d2{
+    /* height: 100px; */
+}
+
+.s1-img{
+    /* color: #dfd5cf; */
+    fill: #dfd5cf;
+    /* position: absolute; */
+    height: 100px;
+    /* color: blue; */
+    /* padding: 0;
+    margin: 0; */
+    /* background-color: magenta; */
+}
+
+.s1-d2::hover{
+    background-color: blue;
+    height: 200px;
+}
+
+/* .s1-bg::before{
+    position: absolute;
+    /* display: block; */
+    /* content: " "; */
+    /* z-index: -1;
+    height: 500px;
+    width: 105vw; 
+    transform: rotate(-5deg);
+    background-color: rgb(243,233,224); */
+    /* top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+    /* overflow-y: unset;
+    backface-visibility: visible; */
+/* }  */
+
+.section-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-size: 16px;
+}
+
+.s2-bg{
+    position: relative;
+    z-index: 2;
+}
+
+.s2-bg::before{
+    position: absolute;
+    content: " ";
+    display: block;
+    background-color: rgb(243,233,224);
+    z-index: -3;
+    transform: rotate(-5deg);
+    top: 3rem;
+    left: -30rem;
+    right: -30rem;
+    bottom: 1rem;
+}
+
+.s2-d1{
+    display: flex;
+    align-items: center;
+}
+
+.s2-d1-h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.s2-d1-h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.s2-d1-h3{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.section-3, .section-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-size: 16px;
+    /* background-color: red; */
+    position: relative;
+    right: -150;
+    color: #dfd5cf;;
+}
+
+.s3-d1-h1{
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.section-4{
+    right: 100;
+}
+
+.s4-bg{
+    position: relative;
+    z-index: 2;
+    color: black;
+}
+
+.s4-bg::before{
+    position: absolute;
+    content: " ";
+    display: block;
+    background-color: rgb(242,199,192);
+    z-index: -3;
+    transform: rotate(-5deg);
+    top: 1rem;
+    left: -30rem;
+    right: -34rem;
+    bottom: -1rem;
+}
+
+.s5-bg{
+    position: relative;
+    z-index: 2;
+    color: black;
+}
+
+.s5-bg::before{
+    position: absolute;
+    content: " ";
+    display: block;
+    background-color: rgb(241,163,180);
+    z-index: -3;
+    transform: rotate(-5deg);
+    top: 0rem;
+    left: -40rem;
+    right: -34rem;
+    bottom: 1rem;
+}
+
+.s6-bg{
+    position: relative;
+    z-index: 2;
+    color: black;
+}
+
+.s6-bg::before{
+    position: absolute;
+    content: " ";
+    display: block;
+    background-image:linear-gradient(#b3b7be,#ded2c7);
+    z-index: -3;
+    transform: rotate(-5deg);
+    top: 0rem;
+    left: -40rem;
+    right: -34rem;
+    bottom: -1rem;
+}
+
+.s8-bg{
+    position: relative;
+    z-index: 2;
+    color: black;
+}
+
+.s8-bg::before{
+    position: absolute;
+    content: " ";
+    display: block;
+    background-color: #f7c2c9;
+    z-index: -3;
+    transform: rotate(-5deg);
+    top: -1rem;
+    left: -40rem;
+    right: -34rem;
+    bottom: -1rem;
+}
+
+.s9-bg{
+    position: relative;
+    z-index: 2;
+    color: black;
+}
+
+.s9-bg::before{
+    position: absolute;
+    content: " ";
+    display: block;
+    background-color: #ffe5cd;
+    z-index: -3;
+    transform: rotate(-5deg);
+    top: -1rem;
+    left: -41rem;
+    right: -34rem;
+    bottom: 2rem;
+}
+
+.s10-d2{
+    position: relative ;
+    right: 150;
+}
+
+.s10-bg{
+    position: relative;
+    z-index: 2;
+    color:#929497;
+    font-size: 20px;
+}
+
+.s10-bg::before{
+    position: absolute;
+    content: " ";
+    /* display: block; */
+    background-color: #dadcdd;
+    z-index: -3;
+    transform: rotate(-5deg);
+    top: -1rem;
+    left: -40rem;
+    right: -34rem;
+    bottom: -4rem;
+}
