@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    
+    background-color: whitesmoke;
+    padding: 20;
+}
+
+.mysec2{
+    display: flex;
+    justify-content: stretch;
+    flex-direction: column;
+}
+
+.mysec2 div{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+
+.mysec2 div div{
+    margin: 5;
+    display: flex;
+    flex-direction: column;
+}
+
+.content1{
+    
+    border: 2px solid black;
+}
+
+.mysec2 div div div p{
+    padding:5;
+    border: none;
+    text-align: justify;
+}
+
+.mysec2 div div div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mysec2 div div div button{
+    padding: 10;
+    border: 1px solid transparent;
+    cursor: pointer;
+    background-color: forestgreen;
+    border-radius: 5px;
+    color: white;
+    width: fit-content;
+}
+
+.mysec2 div div div h2{
+    padding: 5;
+}

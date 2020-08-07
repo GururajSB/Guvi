@@ -1,0 +1,116 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    
+    background-color: whitesmoke;
+    padding: 20;
+    width: 50vw;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15;
+    border-bottom: 1px solid black;
+}
+
+header span{
+    color: grey;
+    font-size: 20px;
+}
+
+header button{
+    background-color: transparent;
+	border: 1px solid whitesmoke;
+	border-radius: 4px;
+    padding: 10;
+    font-weight: 600;
+    color: dodgerblue;
+}
+
+header button:hover{
+    background-color: dodgerblue;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+
+.mysec1{
+    margin: 20px;
+    padding: 10px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mysec1 h1{
+    font-size: 5em;
+    text-align: center;
+}
+
+.mysec1 p{
+    text-align: center;
+}
+
+.mysec1 button{
+    width: fit-content;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 5px;
+    color: whitesmoke;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.mysec1 button:hover{
+    border: 1px solid whitesmoke;
+
+}
+
+.s1-button1{
+    background-color: mediumseagreen;
+}
+
+.s1-button2{
+background-color: dodgerblue;
+}
+
+.mysec2{
+    display: flex;
+    justify-content: stretch;
+    flex-direction: column;
+}
+
+.mysec2 div{
+    display: flex;
+    flex-direction: row;
+    /* width: 50%; */
+    justify-content: stretch;
+    padding: 10;
+}
+
+.mysec2 div div{
+    padding: 5;
+    display: flex;
+    flex-direction: column;
+}
+
+.mysec2 div div div p{
+    padding-top: 0;
+    text-align: justify;
+}
+
+footer{
+    color: grey;
+    font-size: 18px;
+    border-top: 1px solid black;
+    padding: 10;
+}

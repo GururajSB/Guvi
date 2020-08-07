@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: darkslategray; */
+}
+
+.mymain{
+    width: 40vw;
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 20px;
+}
+
+.main-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: whitesmoke;
+    padding: 5;
+}
+
+.div-btn{
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+button{
+    padding: 5;
+    cursor: pointer;
+}
+
+.div-country{
+    width: 30%;
+}
+
+select{
+    width: 90%;
+}
+
+
+
