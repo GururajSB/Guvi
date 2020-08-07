@@ -1,0 +1,18 @@
+Question1:
+Netlify link:
+https://app.netlify.com/sites/question-1/settings/general
+
+
+Question2:
+Netlify link:
+https://question-2.netlify.app/
+
+
+Question-3:
+Netlify link:
+https://question-3.netlify.app/
+
+
+
+Github Link for all 3:
+https://github.com/GururajSB/Guvi/tree/master/Week3/Week3%20Assessment%20Test
