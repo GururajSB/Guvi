@@ -1,6 +1,6 @@
 Question1:
 Netlify link:
-https://app.netlify.com/sites/question-1/settings/general
+https://question-1.netlify.app/
 
 
 Question2:
