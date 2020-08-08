@@ -1,0 +1,219 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume using only JS</title>
+</head>
+<body>
+
+    <script>
+        document.body.style.padding="0";
+        document.body.style.margin="0";
+        // document.body.style.width="100";
+        document.body.style.fontFamily="monospace";
+        document.body.style.display="flex";
+        document.body.style.justifyContent="center";
+        document.body.style.alignItems="center"
+        document.body.style.backgroundColor="whitesmoke"
+
+        
+        var my_main=document.createElement("main");
+        my_main.setAttribute("class","my_main");
+        my_main.style.width="60vw";
+        my_main.style.backgroundColor="white";
+        document.body.append(my_main);
+
+        // Main Image
+        var main_img=document.createElement('img')
+        main_img.setAttribute("class","main_img")
+        main_img.setAttribute("src","img/main_img.PNG")
+        main_img.style.width="60vw";
+        main_img.style.padding="0";
+        main_img.style.margin="0";
+        my_main.appendChild(main_img);
+
+        // Text below the main image
+        var div1=document.createElement("div");
+        div1.setAttribute("class","div1")
+        div1.innerText="N. Damen Avenue, Chicago 99999 | 999-999-9999 | www.damenA@gmail.com";
+        div1.style.textAlign="center";
+        div1.style.fontSize="20px";
+        div1.style.borderTop="2px solid black";
+        div1.style.borderBottom= "2px solid black";
+        div1.style.padding= "5";
+        my_main.appendChild(div1);
+
+        // Two Columns container
+        var main_section=document.createElement("section");
+        main_section.setAttribute("class","main_section");
+        main_section.style.display="flex";
+        main_section.style.flexDirection="row";
+        main_section.style.justifyContent="center";
+        main_section.style.padding="10";
+        my_main.appendChild(main_section);
+
+        // First Column
+        var first_column=document.createElement("div");  
+        first_column.setAttribute("class","main_section");
+        first_column.style.display="flex";
+        first_column.style.flexDirection="column";
+        first_column.style.borderRight="2px solid grey";
+        first_column.style.padding="20";
+        main_section.appendChild(first_column)
+
+        // First Column div1
+        var fcdiv1=document.createElement("div");
+        fcdiv1.setAttribute("class","fcdiv1")
+        first_column.appendChild(fcdiv1);
+
+        var fcdiv1h3=document.createElement("h3");
+        fcdiv1h3.setAttribute("class","fcdiv1h3")
+        fcdiv1h3.innerText="Profile";
+        fcdiv1h3.style.fontSize="26px"
+        fcdiv1.appendChild(fcdiv1h3)
+
+        var fcdiv1p=document.createElement("p");
+        fcdiv1p.setAttribute("class","fcdiv1p")
+        fcdiv1p.innerText="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta consectetur reprehenderit rerum id iste vero nihil, sed in itaque voluptatem odit odio aliquam similique nemo distinctio. Tempore id inventore sit.";
+        fcdiv1p.style.fontSize="18px";
+        fcdiv1p.style.textAlign="justify"
+        fcdiv1.appendChild(fcdiv1p)
+
+
+        // div2
+        var fcdiv2=document.createElement("div");
+        fcdiv2.setAttribute("class","fcdiv2");
+        first_column.appendChild(fcdiv2);        
+
+        // contents in div2
+        // h4
+        var fcdiv2h4=document.createElement("h4");
+        fcdiv2h4.setAttribute("class","fcdiv2h4");
+        fcdiv2h4.innerText="Technical Skills";
+        fcdiv2h4.style.textAlign="center"
+        fcdiv2h4.style.fontSize="20px"
+        fcdiv2.appendChild(fcdiv2h4)
+
+        // Skills
+        var myfcdiv1_2=document.createElement("img")
+        myfcdiv1_2.setAttribute("class","myfcdiv1_2")
+        myfcdiv1_2.setAttribute("src","img/skills.jpeg");
+        // myfcdiv1_2.style.width="60%";
+        fcdiv2.appendChild(myfcdiv1_2)
+
+        // First Column div3
+        var fcdiv3=document.createElement("div");
+        fcdiv3.setAttribute("class","fcdiv3");
+        first_column.appendChild(fcdiv3);
+
+        // Content inside third column div1
+        var fcdiv3h3=document.createElement("h3");
+        fcdiv3h3.setAttribute("class","fcdiv3h3")
+        fcdiv3h3.innerText="Work Experience";
+        fcdiv3h3.style.fontSize="26px"
+        fcdiv3.appendChild(fcdiv3h3)
+
+        var fcdiv3ul=document.createElement("ul");
+        fcdiv3ul.setAttribute("class","fcdiv3ul");
+        fcdiv3ul.style.fontSize="18px";
+        fcdiv3ul.style.textAlign="justify"
+        fcdiv3.appendChild(fcdiv3ul)
+
+        var div1ulli1=document.createElement("li");
+        div1ulli1.setAttribute("class","div1ulli1");
+        div1ulli1.innerText="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa quisquam mollitia ipsum quas? Fugiat atque rem delectus maiores ducimus quisquam ut sequi minus, accusantium, esse molestiae labore aliquid, voluptatem nostrum."
+        fcdiv3ul.appendChild(div1ulli1);
+
+        var div1ulli2=document.createElement("li");
+        div1ulli2.setAttribute("class","div1ulli1");
+        div1ulli2.innerText="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa quisquam mollitia ipsum quas? Fugiat atque rem delectus maiores ducimus quisquam ut sequi minus, accusantium, esse molestiae labore aliquid, voluptatem nostrum."
+        fcdiv3ul.appendChild(div1ulli2);
+
+        var div1ulli3=document.createElement("li");
+        div1ulli3.setAttribute("class","div1ulli1");
+        div1ulli3.innerText="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa quisquam mollitia ipsum quas? Fugiat atque rem delectus maiores ducimus quisquam ut sequi minus, accusantium, esse molestiae labore aliquid, voluptatem nostrum."
+        fcdiv3ul.appendChild(div1ulli3);
+
+
+
+        // Second Column
+        var second_column=document.createElement("div");  
+        second_column.setAttribute("class","main_section");
+        second_column.style.display="flex";
+        second_column.style.flexDirection="column";
+        second_column.style.padding="20";
+        main_section.appendChild(second_column)
+
+
+        // contents in second column
+        // div1
+        var scdiv1=document.createElement("div");
+        scdiv1.setAttribute("class","fcdiv1");
+        second_column.appendChild(scdiv1);
+
+        // contents in div1
+        var scdiv1h3=document.createElement("h3");
+        scdiv1h3.innerText="Work Experience";
+        scdiv1h3.style.fontSize="26px"
+        scdiv1.appendChild(scdiv1h3)
+
+        var scdiv1ul=document.createElement("ul");
+        scdiv1ul.setAttribute("class","scdiv1ul")
+        scdiv1ul.style.fontSize="18px";
+        scdiv1ul.style.textAlign="justify"
+        scdiv1.appendChild(scdiv1ul)
+
+        var scdiv1ulli1=document.createElement("li");
+        scdiv1ulli1.setAttribute("class","scdiv1ulli1");
+        scdiv1ulli1.innerText="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa quisquam mollitia ipsum quas? Fugiat atque rem delectus maiores ducimus quisquam ut sequi minus, accusantium, esse molestiae labore aliquid, voluptatem nostrum."
+        scdiv1ul.appendChild(scdiv1ulli1);
+
+        var scdiv1ulli2=document.createElement("li");
+        scdiv1ulli2.setAttribute("class","scdiv1ulli1");
+        scdiv1ulli2.innerText="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa quisquam mollitia ipsum quas? Fugiat atque rem delectus maiores ducimus quisquam ut sequi minus, accusantium, esse molestiae labore aliquid, voluptatem nostrum."
+        scdiv1ul.appendChild(scdiv1ulli2);
+
+
+        // div2
+        var scdiv2=document.createElement("div");
+        scdiv2.setAttribute("class","fcdiv2")
+        second_column.appendChild(scdiv2);
+
+        // contents in div2
+        var scdiv2h3=document.createElement("h3");
+        scdiv2h3.innerText="Education";
+        scdiv2h3.style.fontSize="26px"
+        scdiv2.appendChild(scdiv2h3);
+
+        var scdiv2div=document.createElement("div");
+        scdiv2div.setAttribute("class","scdiv2div");
+        scdiv2div.innerText="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa quisquam mollitia ipsum quas? Fugiat atque rem delectus maiores ducimus quisquam ut sequi minus, accusantium, esse molestiae labore aliquid, voluptatem nostrum."
+        scdiv2div.style.textAlign="justify";
+        scdiv2div.style.fontSize="18px";
+        scdiv2.appendChild(scdiv2div);
+
+        var scdiv2ul=document.createElement("ul");
+        scdiv2ul.setAttribute("class","scdiv2ul")
+        scdiv2ul.style.fontSize="18px";
+        scdiv2ul.style.textAlign="justify"
+        scdiv2.appendChild(scdiv2ul)
+
+        var scdiv2ulli1=document.createElement("li");
+        scdiv2ulli1.setAttribute("class","scdiv2ulli1");
+        scdiv2ulli1.innerText="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa quisquam mollitia ipsum quas? Fugiat atque rem delectus maiores ducimus quisquam ut sequi minus, accusantium, esse molestiae labore aliquid, voluptatem nostrum."
+        scdiv2ul.appendChild(scdiv2ulli1);
+
+        var scdiv2ulli2=document.createElement("li");
+        scdiv2ulli2.setAttribute("class","scdiv2ulli1");
+        scdiv2ulli2.innerText="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa quisquam mollitia ipsum quas? Fugiat atque rem delectus maiores ducimus quisquam ut sequi minus, accusantium, esse molestiae labore aliquid, voluptatem nostrum."
+        scdiv2ul.appendChild(scdiv2ulli2);
+
+        
+        var scdiv2ulli2=document.createElement("li");
+        scdiv2ulli2.setAttribute("class","scdiv2ulli1");
+        scdiv2ulli2.innerText="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa quisquam mollitia ipsum quas? Fugiat atque rem delectus maiores ducimus quisquam ut sequi minus, accusantium, esse molestiae labore aliquid, voluptatem nostrum."
+        scdiv2ul.appendChild(scdiv2ulli2);
+
+    </script>
+</body>
+</html>
