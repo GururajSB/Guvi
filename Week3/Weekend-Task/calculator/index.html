@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="d-flex justify-content-center container">
+    <main class="col-lg-6 row align-self-center text-center mymain"> 
+        <section class="col-lg-12 row p-4 rounded mysec1">
+            <div class="col-lg-12 row text-right display-4">
+                <div class="col-12" id="operations" style="height: 50px;"></div>
+            </div>
+            <div class="col-lg-12 row text-right">
+                <div class="col-12 display-3" id="result" style="height: 100px;"></div>
+            </div>
+            <div class="col-lg-12 row text-center">
+                <div class="col-3"><h3 class="p-3 mybtn-num" id="num7">7</h3></div>
+                <div class="col-3"><h3 class="p-3 mybtn-num" id="num8">8</h3></div>
+                <div class="col-3"><h3 class="p-3 mybtn-num" id="num9">9</h3></div>
+                <div class="col-3"><h3 class="p-3 mybtn-opr" id="oprmod">%</h3></div>
+            </div>
+            <div class="col-lg-12 row text-center">
+                <div class="col-3"><h3 class="p-3 mybtn-num" id="num4">4</h3></div>
+                <div class="col-3"><h3 class="p-3 mybtn-num" id="num5">5</h3></div>
+                <div class="col-3"><h3 class="p-3 mybtn-num" id="num6">6</h3></div>
+                <div class="col-3"><h3 class="p-3 mybtn-opr" id="oprdiv">/</h3></div>
+            </div>
+            <div class="col-lg-12 row text-center">
+                <div class="col-3"><h3 class="p-3 mybtn-num" id="num1">1</h3></div>
+                <div class="col-3"><h3 class="p-3 mybtn-num" id="num2">2</h3></div>
+                <div class="col-3"><h3 class="p-3 mybtn-num" id="num3">3</h3></div>
+                <div class="col-3"><h3 class="p-3 mybtn-opr" id="oprmul">*</h3></div>
+            </div>
+            <div class="col-lg-12 row text-center">
+                <div class="col-3"><h3 class="p-3 mybtn-num" numb id="num00">00</h3></div>
+                <div class="col-3"><h3 class="p-3 mybtn-num" id="num0">0</h3></div>
+                <div class="col-3"><h3 class="p-3 mybtn-opr" id="opradd">+</h3></div>
+                <div class="col-3"><h3 class="p-3 mybtn-opr" id="oprsub">-</h3></div>
+            </div>
+            <div class="col-lg-12 row text-center">
+                <div class="col-3"><h3 class="p-3 mybtn-clr" id="clearall">CE</h3></div>
+                <div class="col-3"><h3 class="p-3 mybtn-clr" id="clear">C</h3></div>
+                <div class="col-6"><h3 class="p-3 mybtn-res" id="equals">=</h3></div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+
+</body>
+</html>
